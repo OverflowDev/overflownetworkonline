@@ -12,19 +12,24 @@ const Experience = [
     },
     {
         id: 3,
+        name: 'Tailwind',
+        icon: 'infinite'
+    },
+    {
+        id: 4,
         name: 'React',
         icon: 'logo-react'
     },
     {
-        id: 4,
+        id: 5,
         name: 'Firebase',
         icon: 'logo-firebase'
     },
     {
-        id: 5,
+        id: 6,
         name: 'Laravel',
         icon: 'logo-laravel'
-    }
+    },
 ]
 
 export default Experience
