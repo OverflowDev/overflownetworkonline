@@ -2,7 +2,7 @@ import Mail from "../components/Mail"
 
 function Footer() {
   return (
-    <footer className="flex justify-center items-center dark:text-white dark:bg-veryDarkBlue bg-teal-100 mt-12 p-4 relative">
+    <footer className="flex justify-center items-center dark:text-white dark:bg-veryDarkBlue bg-blue-100 mt-12 p-4 relative">
       {/* <div className="container p-2">
         <div className="">
           <div className="flex justify-center space-x-6 items-center text-3xl">
@@ -18,7 +18,7 @@ function Footer() {
           </div>
         </div>
       </div> */}
-       <div className=' bottom-0 right-0 p-4 fixed z-10'>
+       <div className='bottom-0 right-0 p-4 fixed z-10 '>
           <Mail />
         </div>
 
