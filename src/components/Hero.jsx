@@ -66,7 +66,7 @@ function Hero() {
                 <div>
                   <ion-icon name="document"></ion-icon>
                 </div>
-                <span className='uppercase tracking-wider'>My Resume</span>
+                <span className='uppercase tracking-wider'>Coming Soon</span>
               </button>
             </div>
         </div>
