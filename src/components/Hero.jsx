@@ -5,7 +5,7 @@ function Hero() {
   return (
     
     <div 
-      className='container flex justify-between items-center mx-auto px-4 md:px-14 lg:px-24 h-screen'
+      className='container flex justify-between mt-32 md:mt-24 mx-auto px-4 md:px-14 lg:px-24 h-screen'
     >
       <div className='flex flex-wrap md:flex-nowrap'> 
 
@@ -40,10 +40,10 @@ function Hero() {
         
         {/* Text  */}
         <div 
-          className='flex flex-wrap justify-center'
+          // className='flex flex-wrap justify-center'
           >
             <div className="flex flex-wrap justify-center">
-              <h1 className='font-bold text-7xl text-center dark:text-blue-50 text-blue-900'>
+              <h1 className='font-bold text-7xl text-center dark:text-blue-50 text-black'>
                 Hi, I am 
                 <span className='uppercase dark:text-blue-500 text-blue-900 text-center text-6xl md:text-8xl lg:text-9xl'>
                   <Fade left cascade>

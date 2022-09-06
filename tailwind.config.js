@@ -22,6 +22,7 @@ module.exports = {
       fontFamily: {
         rubik: ["Rubik Maze", ...defaultTheme.fontFamily.sans],
         silkscreen: ["Cabin", ...defaultTheme.fontFamily.sans],
+        barlow: ["Barlow", ...defaultTheme.fontFamily.sans],
         serif: [...defaultTheme.fontFamily.serif],
         mono: [...defaultTheme.fontFamily.mono],
       }

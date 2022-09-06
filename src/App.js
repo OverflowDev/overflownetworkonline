@@ -8,7 +8,7 @@ import Navbar from './layouts/Navbar';
 
 function App() {
   return (
-    <div className="dark:bg-body font-silkscreen dark:text-white text-body overflow-hidden">
+    <div className="dark:bg-body font-barlow dark:text-white text-body overflow-hidden">
       <AnimatedCursor
         innerSize={20}
         outerSize={50}

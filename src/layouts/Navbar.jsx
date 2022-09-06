@@ -18,7 +18,7 @@ function Navbar() {
   return (
     <div className='flex justify-between items-center p-8'>
         <div>
-            <h1 className='font-semibold font-rubik'>OVERFLOW <span className='text-blue-700'>NETWORK</span> </h1>
+            <h1 className='font-bold font-rubik tracking-wider'>OVERFLOW <span className='text-blue-800'>NETWORK</span> </h1>
         </div>
         <button 
             className='dark:text-white '
