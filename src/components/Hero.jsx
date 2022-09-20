@@ -5,7 +5,7 @@ function Hero() {
   return (
     
     <div 
-      className='container flex justify-between mt-32 md:mt-24 mx-auto px-4 md:px-14 lg:px-24 h-screen'
+      className='container flex justify-between mt-32 md:mt-24 mx-auto px-4 md:px-14 lg:px-24 md:h-screen h-full'
     >
       <div className='flex flex-wrap md:flex-nowrap'> 
 
@@ -55,7 +55,7 @@ function Hero() {
                 <Fade left cascade>
                   <h1 className='text-2xl text-center p-2 font-semibold dark:text-blue-200 text-blue-900'> Front-End Developer</h1>
                 </Fade>
-                <p className='leading-8 px-16 font-light text-center tracking-wide'>
+                <p className='leading-8 md:px-16 px-8 font-light text-center tracking-wide'>
                   "A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away." - Antoine de Saint-Exupéry
                 </p>
               </div>

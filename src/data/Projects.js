@@ -28,6 +28,13 @@ const Projects = [
         url: 'https://house-marketplace-chi-seven.vercel.app/',
         image: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?cs=srgb&dl=pexels-expect-best-323780.jpg&fm=jpg'
     }, 
+    {
+        id: 5,
+        name: 'Weather App',
+        description: 'Weather App is the app to check any current weather ',
+        url: 'https://weatherapp-85n67a65x-overflowdev.vercel.app/',
+        image: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?cs=srgb&dl=pexels-expect-best-323780.jpg&fm=jpg'
+    }, 
 ]
 
 export default Projects
