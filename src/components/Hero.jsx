@@ -1,6 +1,5 @@
 import {Zoom, Fade, Bounce} from 'react-awesome-reveal';
 
-
 function Hero() {
   return (
     <div 
@@ -61,9 +60,9 @@ function Hero() {
             </div>
             
             <a 
-              href='/resume'
+              href='https://drive.google.com/file/d/1BH7Gab0z9p3l_nvXXV9W5whQAND0GQUl/view?usp=sharing'
               className='flex justify-center'
-              target='_blank' rel='noreferrer'
+              target="_blank" rel="noopener noreferrer"
             >
               <button className='px-8 py-4 bg-blue-800 text-white font-semibold mt-8 flex items-center space-x-2'>
                 <div>

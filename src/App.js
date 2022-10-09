@@ -38,7 +38,7 @@ function App() {
               </div>
             } 
           />
-          <Route path='/resume' element={<Resume />} />
+          <Route exact path='/resume' element={<Resume />} />
         </Routes>
 
       </Router>
