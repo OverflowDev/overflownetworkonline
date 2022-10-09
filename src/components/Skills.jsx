@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import Fade from 'react-reveal/Fade'
-import Jump from 'react-reveal/Jump'
+import {Zoom, Bounce} from 'react-awesome-reveal'
 
 import Data from '../data/Experience'
 
@@ -9,10 +8,10 @@ function Skills() {
   return (
     <div className="container mt-12 flex justify-between items-center mx-auto p-8 md:px-14 lg:px-52 w-full" >
       <section className='w-full'>
-        <Jump left cascade>
+        <Bounce left cascade>
             <h2 className='font-bold text-3xl before:block before:w-12 before:h-2 before:bg-blue-500 before:rounded-full before:mb-1 uppercase tracking-wider'>EXPERIENCE</h2>
-        </Jump>
-        <Fade bottom cascade>
+        </Bounce>
+        <Zoom bottom cascade>
             <div className='flex justify-center '>
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-8">
                     {data.map((experience) => {
@@ -43,7 +42,7 @@ function Skills() {
                     })}
                 </div>
             </div>
-        </Fade>
+        </Zoom>
 
       </section>
 

@@ -1,4 +1,5 @@
 import {useEffect, useState} from 'react'
+import {Link} from 'react-router-dom'
 
 function Navbar() {
     const [theme, setTheme] = useState(localStorage.theme)
@@ -17,9 +18,9 @@ function Navbar() {
 
   return (
     <div className='flex justify-between items-center p-8'>
-        <div>
+        <Link to='/'>
             <h1 className='font-bold font-rubik tracking-wider'>OVERFLOW <span className='text-blue-800'>NETWORK</span> </h1>
-        </div>
+        </Link>
         <button 
             className='dark:text-white '
             onClick={() => setTheme(colorTheme)}

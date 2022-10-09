@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import Fade from 'react-reveal/Fade'
+import {Slide} from 'react-awesome-reveal'
 import Data from '../data/Projects'
 
 function Project() {
    const [data] = useState(Data)
   return (
-   <Fade bottom cascade>
+   <Slide down cascade damping={0.1} delay={1}>
 
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8'>
          
@@ -60,7 +60,7 @@ function Project() {
 
 
       </div>
-   </Fade>
+   </Slide>
   )
 }
 

@@ -15,13 +15,13 @@ function Footer() {
       <div className="container mt-2 md:hidden">
         <div className="">
           <div className="flex justify-center space-x-6 items-center text-3xl">
-            <a href="https://www.linkedin.com/in/adeyemi-adetomiwa-789281125/">
+            <a href="https://www.linkedin.com/in/adeyemi-adetomiwa-789281125/" target='_blank' rel='noreferrer'>
                 <ion-icon name="logo-linkedin"></ion-icon>
             </a>
-            <a href="https://twitter.com/ade_overflow">
+            <a href="https://twitter.com/overflow_dev" target='_blank' rel='noreferrer'>
                 <ion-icon name="logo-twitter"></ion-icon>
             </a>
-            <a href="https://github.com/OverflowDev">
+            <a href="https://github.com/OverflowDev" target='_blank' rel='noreferrer'>
                 <ion-icon name="logo-github"></ion-icon>
             </a>
           </div>
