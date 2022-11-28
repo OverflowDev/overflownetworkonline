@@ -1,9 +1,9 @@
 const Projects = [
     {
         id: 1,
-        name: 'Overflow Market',
-        description: 'Overflow Market is an e-commerce website that allows you to add products to cart and pay with any crypto currency of your choice',
-        url: 'https://overflowmarket.vercel.app/',
+        name: 'Coingetter',
+        description: 'Overflow Market is a live cryptocurrency price platform',
+        url: 'https://coingetter-overflowdev.vercel.app/',
         image: 'https://images.pexels.com/photos/953862/pexels-photo-953862.jpeg?cs=srgb&dl=pexels-emirkhan-bal-953862.jpg&fm=jpg'
         
     }, 
