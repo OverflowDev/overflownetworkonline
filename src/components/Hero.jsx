@@ -60,7 +60,7 @@ function Hero() {
             </div>
             
             <a 
-              href='https://drive.google.com/file/d/1BH7Gab0z9p3l_nvXXV9W5whQAND0GQUl/view?usp=sharing'
+              href='https://drive.google.com/file/d/1B8xfFvQwS6BPkqaon2Lpb2BOfi3yzYAT/view?usp=sharing'
               className='flex justify-center'
               target="_blank" rel="noopener noreferrer"
             >
