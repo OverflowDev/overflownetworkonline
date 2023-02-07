@@ -43,6 +43,13 @@ const Projects = [
         url: 'https://weatherapp-85n67a65x-overflowdev.vercel.app/',
         image: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?cs=srgb&dl=pexels-expect-best-323780.jpg&fm=jpg'
     }, 
+    {
+        id: 7,
+        name: 'Music App',
+        description: 'Music App using React',
+        url: 'https://musica-five-sand.vercel.app/',
+        image: 'https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bXVzaWMlMjBhcHB8ZW58MHx8MHx8&w=1000&q=80'
+    }, 
 ]
 
 export default Projects
